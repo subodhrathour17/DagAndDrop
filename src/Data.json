@@ -1,0 +1,92 @@
+[
+  {
+    "fields": {
+      "project": { "key": "HRM" },
+      "summary": "Develop UI for Agency Registration",
+      "description": "Create and implement the user interface for the agency registration module. Ensure the UI is responsive and user-friendly.",
+      "issuetype": { "name": "Task" },
+      "priority": { "name": "High" },
+      "assignee": { "name": "ui_dev_team" },
+      "reporter": { "name": "subodh_singh" },
+      "labels": ["UI", "Development", "AgencyRegistration"],
+      "components": [{ "name": "Frontend" }],
+      "duedate": "2024-09-05",
+      "timetracking": {
+        "originalEstimate": "5d",
+        "remainingEstimate": "5d"
+      }
+    }
+  },
+  {
+    "fields": {
+      "project": { "key": "HRM" },
+      "summary": "Test API for Bulk Worker Profile Upload",
+      "description": "Conduct thorough testing of the API endpoint responsible for bulk uploading worker profiles. Ensure the API handles various input scenarios and adheres to the project requirements.",
+      "issuetype": { "name": "Task" },
+      "priority": { "name": "High" },
+      "assignee": { "name": "api_tester" },
+      "reporter": { "name": "subodh_singh" },
+      "labels": ["API", "Testing", "BulkUpload", "WorkerProfile"],
+      "components": [{ "name": "Backend" }],
+      "duedate": "2024-08-31",
+      "timetracking": {
+        "originalEstimate": "3d",
+        "remainingEstimate": "2d"
+      }
+    }
+  },
+  {
+    "fields": {
+      "project": { "key": "HRM" },
+      "summary": "Write API Documentation for Agency Module",
+      "description": "Document the API endpoints for the agency module, including request/response formats, error codes, and usage examples.",
+      "issuetype": { "name": "Task" },
+      "priority": { "name": "Medium" },
+      "assignee": { "name": "tech_writer" },
+      "reporter": { "name": "subodh_singh" },
+      "labels": ["Documentation", "API", "AgencyModule"],
+      "components": [{ "name": "Documentation" }],
+      "duedate": "2024-09-01",
+      "timetracking": {
+        "originalEstimate": "2d",
+        "remainingEstimate": "2d"
+      }
+    }
+  },
+  {
+    "fields": {
+      "project": { "key": "HRM" },
+      "summary": "Integrate Worker Profile Upload with Backend",
+      "description": "Integrate the worker profile upload functionality with the backend API. Ensure data consistency and error handling.",
+      "issuetype": { "name": "Task" },
+      "priority": { "name": "High" },
+      "assignee": { "name": "backend_dev_team" },
+      "reporter": { "name": "subodh_singh" },
+      "labels": ["Backend", "Integration", "WorkerProfile"],
+      "components": [{ "name": "Backend" }],
+      "duedate": "2024-09-07",
+      "timetracking": {
+        "originalEstimate": "4d",
+        "remainingEstimate": "4d"
+      }
+    }
+  },
+  {
+    "fields": {
+      "project": { "key": "HRM" },
+      "summary": "Create Single Worker Profile Upload Feature",
+      "description": "Develop and test the feature that allows the upload of a single worker profile. Ensure validation and error handling are in place.",
+      "issuetype": { "name": "Task" },
+      "priority": { "name": "Medium" },
+      "assignee": { "name": "feature_dev_team" },
+      "reporter": { "name": "subodh_singh" },
+      "labels": ["FeatureDevelopment", "WorkerProfile", "SingleUpload"],
+      "components": [{ "name": "Backend" }],
+      "duedate": "2024-09-10",
+      "timetracking": {
+        "originalEstimate": "3d",
+        "remainingEstimate": "3d"
+      }
+    }
+  }
+]
